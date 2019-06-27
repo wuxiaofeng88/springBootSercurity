@@ -22,7 +22,7 @@ public class KungfuController {
 	 * 登陆页
 	 * @return
 	 */
-	@RequestMapping("/userlogin")
+	@GetMapping("/userlogin")
 	public String loginPage() {
 		return PREFIX+"login";
 	}
