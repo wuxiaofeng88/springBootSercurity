@@ -31,6 +31,9 @@ public class MySercurityConfig extends WebSecurityConfigurerAdapter{
 
         //开启自动注销功能
         http.logout().logoutSuccessUrl("/");
+
+        //开启记住我功能
+        http.rememberMe();
     }
 
     @Override
